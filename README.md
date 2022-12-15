@@ -1,2 +1,2 @@
-# LonelyDay3
-Đếm ngày cô đơn của Linh
+# LonelyDay
+Bạn cô đơn được bao lâu rồi :)

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="style.css">
+      <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+      <title>Lonely Days</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+     <div id="wrapper">
+           <h1>Đếm ngày cô đơn</h1>
+
+           <div id="clock-box">
+                 <div id="clock">
+                       <p>Linh cô đơn được</p>
+                       <date>0 DAYS</date>
+                       <time>00:00:00</time>
+                  </div>
+            </div>
+            
+            <div id="info">
+                  <div class="one">
+                        <img src="img/main.jpg" class="avt">
+                        <p>Đăng Ngọc Khánh Linh</p>
+                  </div>
+                  <div id="heart">
+                        ❤<anni>...</anni>
+                  </div>
+                  <!-- <div class="two">
+                        <img src="img/main.jpg" class="avt">
+                        <p>Đinh Việt Tiến</p>
+                  </div> -->
+            </div>
+            
+            <div id="music">
+<iframe allow="autoplay" frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/6MytkoDoTFs?&origin=https://OurWebsiteDomain" title="Bug Week " height="278" data-ytbridge="vidSurrogate2" style="width: 320px"></iframe>                          </div>
+         <script>
+setTimeout(function() {
+  var url = $('iframe').attr('src')
+  url = url+'?autoplay=1';
+  $('iframe').attr('src', url)
+}, 1000); // 2000 = 2s, 10s= 10000
+            </script>
+            <footer>Thank you for your love 💕</footer>
+      </div> 
+   
+      <script src="app.js"></script>
+</body>
+</html>
